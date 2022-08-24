@@ -1,0 +1,56 @@
+HTML :
+Un buen dominio de XHTML y CSS2 será suficiente para abordar HTML5 y CSS3
+durante el curso M2.
+Web semántica: las etiquetas html no están pensadas para dar formato, sino que su único objetivo es
+su único propósito es añadir semántica al contenido.
+
+- estructura de un documento html head bodyMeta charset
+- conocer la distinción entre un elemento en línea y un elemento de bloque
+  elemento de bloque: h1 a h6 p div blockquote
+  inlineelement :strong em address abbr
+- Listas: ulol dl li dd dt
+- Ta
+
+CSS :
+
+- selectores :
+- el selector universal \*
+- operadores sobre selectores: descendiente (div p), hijo (div >p), sucesor directo
+  directo (div + p)
+- clases (div.nombre_clase)
+- ids (div#id_name)
+- pseudoclases: :link :visited : hover :active
+- pseudoelementos : ::antes, ::después
+
+Propiedades de CSS2:
+
+- text (font-size, font-style, font-weight, line-height, color)
+- alineación del texto (text-align)
+- bordes (frontera)
+- fondos (color o imagen)
+- márgenes (margin y padding)
+- posicionamiento: propiedad de posición (estática, absoluta, relativa, fija)
+- gestión de desbordamientos
+- propiedad display (block, inline, inline-block, none)
+
+Javascript :
+
+- guión interno o externo
+- variables locales y globales
+- recuperar un elemento por su identificador: document.getElementById()
+- acceder y modificar su contenido: element.innerHTML, element.value
+- acceder y modificar el estilo: element.style.property
+- eventos: onclick(), onchange()
+- definir las funciones de uso (vínculo entre los argumentos y los parámetros formales)
+- procesamiento condicional: if, else if, else
+- diálogos modales: alert(), prompt(), confirm()
+
+PHP
+Saber qué es una URL, conocer su sintaxis (query string...).
+Saber diferenciar los enlaces absolutos/relativos.
+Sentirse cómodo con un navegador web decente (consola de depuración, saber cómo mostrar el código fuente de una página, inspeccionar un elemento...).
+fuente de una página, inspeccionar un elemento...)
+Ser capaz de gestionar archivos remotos en un servidor ftp (local/remoto),
+uso de un cliente ftp.
+Conocer las etiquetas html "form/input/textarea" y sus diferentes atributos.
+Conocer

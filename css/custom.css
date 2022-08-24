@@ -1,0 +1,43 @@
+/* Selector Universal */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Selector de Etiqueta */
+html{
+    padding: 2rem;
+}
+/* Selector de Clase */
+.Bloque1{
+    background-color: red;
+}
+.Bloque2{
+    background-color: blue;
+}
+.Bloque3{
+    background-color: green;
+}
+
+/* Selector por ID */
+#lista-descriptiva{
+    background-color: rgb(156, 28, 28);
+}
+
+#lista-descriptiva dt{
+    background-color: rgb(28, 156, 66);
+}
+
+#lista-descriptiva > .last-child{
+    background-color: rgb(28, 79, 156);
+}
+
+#lista-descriptiva > #first-description{
+    background-color: rgb(156, 28, 139);
+}
+
+#lista-descriptiva + li{
+    background-color: rgb(156, 79, 28);
+
+}
